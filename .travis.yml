@@ -6,4 +6,5 @@ language: java
 # Test script
 script: mvn compile test
 
-jdk: [oraclejdk7]
+# JavaFx require java8
+jdk: [oraclejdk8]
